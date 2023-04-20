@@ -3,8 +3,8 @@ import React from "react";
 
 const memory = () =>(
     <div>
-        <h1>Hello React</h1>
+        <h1>Hello React!!!</h1>
     </div>
-)
+);
 
 export default memory;
