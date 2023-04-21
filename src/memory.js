@@ -1,10 +1,9 @@
-//react.create lo que sea 
 import React from "react";
+import "index.css";
 
-const memory = () =>(
-    <div>
+function Memory (){    return (<div className="wow ">
         <h1>Hello React!!!</h1>
-    </div>
-);
+    </div>)
+};
 
-export default memory;
+export default Memory;

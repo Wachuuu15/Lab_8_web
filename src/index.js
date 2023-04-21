@@ -1,7 +1,7 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
 //import memoria
-import memory from "./memory";
+import Memory from "./memory";
 
 
-ReactDOM.render(<memory />, document.querySelector("#root"));
+ReactDOM.render(<Memory/>, document.querySelector("#root"));
