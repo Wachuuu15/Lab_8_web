@@ -105,7 +105,7 @@ function Memory() {
   return (
     <div className="wow">
       <h1>TAYLOR SWIFT</h1>
-      <h3>Welcome to Taylor Swift's Memory, 'The Eras Tour'</h3>
+      <h3>Welcome to Taylor Swift's Memory, 'THE ERAS TOUR'</h3>
       <button onClick={shuffleCards}>New Game</button>
       <p>Turns: {turns}</p>
       <p>Score: {score}</p>
