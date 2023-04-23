@@ -2,10 +2,13 @@ import React from 'react';
 import './SingleCard.css';
 import the_eras_tour from "img/the_eras_tour.jpg";
 
-export default function SingleCard({card, handleChoice, flipped}){
+export default function SingleCard({card, handleChoice, flipped, disabled}){
 
     const handleClick = () =>{
-        handleChoice(card)
+        if(!disabled){
+            handleChoice(card)
+        }
+      
     }
 
     return(
